@@ -66,6 +66,9 @@ echo ""
 echo "Adding files to git..."
 git add .
 
+# Remove .kiro/ if it was accidentally added
+git rm -r --cached .kiro/ 2>/dev/null || true
+
 # Step 4: Show what will be committed
 echo ""
 echo "Files to be committed:"

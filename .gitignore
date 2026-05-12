@@ -142,3 +142,22 @@ benchmark_results/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Kiro internal files (spec workflow files - not needed for assessment)
+.kiro/
+
+# Internal helper files (not needed for assessment submission)
+ASSESSMENT_VALIDATION.md
+FINAL_TEST_INSTRUCTIONS.md
+FINAL_VALIDATION_REPORT.md
+FINAL_GITHUB_FILES.md
+GITHUB_SUBMISSION_CHECKLIST.md
+QUICK_START_GITHUB.md
+REMOVE_KIRO_FROM_GITHUB.md
+UPLOAD_TO_GITHUB.md
+final_validation.py
+fix_github_remove_kiro.bat
+upload_to_github.bat
+upload_to_github.sh
+validate_docs.py
+validate_e2e.py
