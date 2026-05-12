@@ -155,8 +155,11 @@ GITHUB_SUBMISSION_CHECKLIST.md
 QUICK_START_GITHUB.md
 REMOVE_KIRO_FROM_GITHUB.md
 UPLOAD_TO_GITHUB.md
+WHAT_TO_SUBMIT.md
 final_validation.py
 fix_github_remove_kiro.bat
+cleanup_github.bat
+cleanup_github.sh
 upload_to_github.bat
 upload_to_github.sh
 validate_docs.py

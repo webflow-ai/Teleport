@@ -32,6 +32,7 @@ git rm -r --cached .kiro/ 2>/dev/null || true
 git rm --cached ASSESSMENT_VALIDATION.md 2>/dev/null || true
 git rm --cached FINAL_TEST_INSTRUCTIONS.md 2>/dev/null || true
 git rm --cached FINAL_VALIDATION_REPORT.md 2>/dev/null || true
+git rm --cached FINAL_GITHUB_FILES.md 2>/dev/null || true
 git rm --cached GITHUB_SUBMISSION_CHECKLIST.md 2>/dev/null || true
 git rm --cached QUICK_START_GITHUB.md 2>/dev/null || true
 git rm --cached REMOVE_KIRO_FROM_GITHUB.md 2>/dev/null || true
@@ -40,6 +41,8 @@ git rm --cached UPLOAD_TO_GITHUB.md 2>/dev/null || true
 # Remove helper scripts
 git rm --cached final_validation.py 2>/dev/null || true
 git rm --cached fix_github_remove_kiro.bat 2>/dev/null || true
+git rm --cached cleanup_github.bat 2>/dev/null || true
+git rm --cached cleanup_github.sh 2>/dev/null || true
 git rm --cached upload_to_github.bat 2>/dev/null || true
 git rm --cached upload_to_github.sh 2>/dev/null || true
 git rm --cached validate_docs.py 2>/dev/null || true
